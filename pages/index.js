@@ -5,7 +5,7 @@ function Home() {
         <div>
             <h1>Miguel Cardoso Abreu</h1>
             <Counter />
-            <div>Test 2</div>
+            <div>Test</div>
         </div>
     )
 }
