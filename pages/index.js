@@ -30,7 +30,7 @@ function Home() {
             <h4>Total: R$ 339.991,40</h4>
             <br></br>
             <h2>Caixa</h2>
-            <h3>4,46</h3>
+            <h3>R$ 4,46</h3>
             <br></br>
             <h1>Nanda</h1>
             <h2>ITSA4 </h2>
@@ -84,7 +84,7 @@ function Home() {
             <h4>Total: R$ 199.998,40</h4>
             <br></br>
             <h2>Caixa</h2>
-            <h3>158,46</h3>
+            <h3>R$ 158,46</h3>
             <br></br>
             <Counter />
             <div>Test</div>
