@@ -5,10 +5,11 @@ function Home() {
     return (
         <div>
             <h1>Miguel Cardoso Abreu</h1>
+            <Counter />
+            <br/>
             <Link href="/about">
                 <a>About</a>
             </Link>
-            <Counter />
         </div>
     )
 }
