@@ -1,11 +1,14 @@
 import { useState } from "react"
+import Link from "next/link"
 
 function Home() {
     return (
         <div>
             <h1>Miguel Cardoso Abreu</h1>
+            <Link href="/about">
+                <a>About</a>
+            </Link>
             <Counter />
-            <div>Test 2</div>
         </div>
     )
 }
