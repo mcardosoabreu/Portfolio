@@ -6,6 +6,8 @@ async function time(request, response) {
     const subscribersResponseJson = await subscribersResponse.json()
     const subscribers = subscribersResponseJson.total_subscribers
 
+    response.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate')
+    
     response.json({
         date: dynamicDate.toGMTString(),
         subscribers
