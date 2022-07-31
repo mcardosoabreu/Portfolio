@@ -5,7 +5,12 @@ function Home() {
     return (
         <div>
             <h1>Miguel Cardoso Abreu</h1>
+            <br/>
             <Counter />
+            <br/>
+            <Link href="/time">
+                <a>Time</a>
+            </Link>
             <br/>
             <Link href="/about">
                 <a>About</a>
