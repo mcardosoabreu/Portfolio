@@ -1,4 +1,4 @@
-async function time(request, response) {
+async function time(req, res) {
     const apiSecret = process.env.CONVERTKIT_API_SECRET
     const dynamicDate = new Date()
 
@@ -6,9 +6,9 @@ async function time(request, response) {
     const subscribersResponseJson = await subscribersResponse.json()
     const subscribers = subscribersResponseJson.total_subscribers
 
-    response.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate')
+    res.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate')
     
-    response.json({
+    res.status(200).json({
         date: dynamicDate.toGMTString(),
         subscribers
     })
