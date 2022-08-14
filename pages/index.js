@@ -1,10 +1,15 @@
+import Layout from "../components/layout"
 import { useState } from "react"
 import Link from "next/link"
+import useTranslation from 'next-translate/useTranslation'
 
 function Home() {
+    let { t } = useTranslation()
+
     return (
-        <div>
+        <Layout>
             <h1>Miguel Cardoso Abreu</h1>
+            <h2>{t("common:greeting")}</h2>
             <br/>
             <Counter />
             <br/>
@@ -12,10 +17,7 @@ function Home() {
                 <a>Time</a>
             </Link>
             <br/>
-            <Link href="/about">
-                <a>About</a>
-            </Link>
-        </div>
+        </Layout>
     )
 }
 

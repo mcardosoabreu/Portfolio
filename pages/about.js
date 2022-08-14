@@ -1,13 +1,14 @@
-import Link from "next/link"
+import Layout from "../components/layout"
+import useTranslation from 'next-translate/useTranslation'
 
 function About() {
+    let { t } = useTranslation()
+
     return (
-        <div>
+        <Layout>
             <h1>Miguel Cardoso Abreu</h1>
-            <Link href="/">
-                <a>Home</a>
-            </Link>
-        </div>
+            <h2>{t("common:about")}</h2>
+        </Layout>
     )
 }
 
