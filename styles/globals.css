@@ -1,12 +1,28 @@
-html,
-body {
-  padding: 0;
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
+html,
+body {
+  background-color: #FFEDD5;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 400px;
+  list-style: none;
+  display:inline-block;
+}
+
+ul li {
+  max-width: 400px;
+  margin-bottom: 16px;
+  display: flex;
 }

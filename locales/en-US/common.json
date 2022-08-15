@@ -1,4 +1,6 @@
 {
+    "about": "I'm a programmer",
+    "contact": "Contact",
     "greeting": "Hello!",
-    "about": "I'm a programmer"
+    "portfolio": "Portfolio"
 }

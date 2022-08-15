@@ -2,14 +2,27 @@ import Layout from "../components/layout"
 import { useState } from "react"
 import Link from "next/link"
 import useTranslation from 'next-translate/useTranslation'
+import classes from "../styles/index.module.css"
 
 function Home() {
     let { t } = useTranslation()
 
     return (
         <Layout>
-            <h1>Miguel Cardoso Abreu</h1>
-            <h2>{t("common:greeting")}</h2>
+            <section className={classes.section}>
+                <h2>{t("common:contact")}</h2>
+                <ul>
+                    <li>
+                        <div className={classes.details}>
+                            <h3>Email: &nbsp;</h3>
+                        </div>
+
+                        <strong className={classes.data}>
+                            mcardosoabreu@gmail.com
+                        </strong>
+                    </li>
+                </ul>
+            </section>
             <br/>
             <Counter />
             <br/>
