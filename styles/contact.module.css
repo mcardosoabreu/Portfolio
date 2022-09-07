@@ -8,7 +8,6 @@
 
 .section ul li {
     display: table-cell;   /* Get all images to show in a row */
-    text-align: center;    /* Centre align the images */
 }
 
 .details, .data {
