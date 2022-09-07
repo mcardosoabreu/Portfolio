@@ -1,0 +1,27 @@
+.section ul {
+    display: table;      /* Required for table-cell to work on li's */
+    padding: 0;          /* Override defaults for lists */
+    margin: 0;          /* Override defaults for lists */
+    width: 100%;         /* Get the row full width */
+    text-align: center;  /* Centre align grid items */
+}
+
+.section ul li {
+    display: table-cell;   /* Get all images to show in a row */
+    text-align: center;    /* Centre align the images */
+}
+
+.details, .data {
+    font-family: "Roboto Serif", serif;
+    color: #2C2D2A;
+    font-size: 16px;
+    text-align: left;
+}
+
+.details {
+    text-align: right;
+}
+
+.data {
+    color: rgba(0, 0, 0, 0.6);
+}

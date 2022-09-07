@@ -1,8 +1,25 @@
 .footer {
-    padding: 32px;
-    background-color: #dff7ff;
-  }
-  
-  .footer ul {
-    margin-top: 16px;
-  }
+  margin: 0 auto;
+}
+
+.footer ul {
+  display: table;      /* Required for table-cell to work on li's */
+  padding: 0;          /* Override defaults for lists */
+  margin: 0 auto;      /* Override defaults for lists */
+  width: 100%;         /* Get the row full width */
+  text-align: center;  /* Centre align grid items */
+}
+
+.footer ul li {
+  display: table-cell;   /* Get all images to show in a row */
+  text-align: center;    /* Centre align the images */
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.footer ul li a {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}

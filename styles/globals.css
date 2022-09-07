@@ -5,24 +5,10 @@
 
 html,
 body {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: #FFEDD5;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-}
-
-header {
-  padding: 32px 0;
-  text-align: center;
-}
-
-ul {
-  max-width: 400px;
-  list-style: none;
-  display:inline-block;
-}
-
-ul li {
-  max-width: 400px;
-  margin-bottom: 16px;
-  display: flex;
 }

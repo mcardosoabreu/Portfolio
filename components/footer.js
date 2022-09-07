@@ -9,7 +9,6 @@ export default function Header() {
         <div>
             <footer className={classes.footer}>
                 <p>© 2022</p>
-
                 <ul>
                     {router.locales.map((locale) => (
                         <li key={locale}>

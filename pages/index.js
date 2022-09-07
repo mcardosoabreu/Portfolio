@@ -1,4 +1,5 @@
 import Layout from "../components/layout"
+import Contact from "../components/contact"
 import { useState } from "react"
 import Link from "next/link"
 import useTranslation from 'next-translate/useTranslation'
@@ -11,17 +12,8 @@ function Home() {
         <Layout>
             <section className={classes.section}>
                 <h2>{t("common:contact")}</h2>
-                <ul>
-                    <li>
-                        <div className={classes.details}>
-                            <h3>Email: &nbsp;</h3>
-                        </div>
-
-                        <strong className={classes.data}>
-                            mcardosoabreu@gmail.com
-                        </strong>
-                    </li>
-                </ul>
+                <Contact label="email" value="mcardosoabreu@gmail.com"></Contact>
+                <Contact label="github" value="https://github.com/mcardosoabreu?tab=repositories"></Contact>
             </section>
             <br/>
             <Counter />

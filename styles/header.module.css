@@ -1,10 +1,14 @@
 .header {
-    max-width: 400px;
+    width: 90%;
+    max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .header h1 {
-    margin-bottom: 4px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
     font-size: 28px;
     line-height: 33px;
     font-family: "Roboto Serif", serif;
@@ -17,12 +21,21 @@
 }
 
 .header p {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
     font-size: 16px;
     line-height: 16px;
     color: rgba(0, 0, 0, 0.7);
 }
 
-.nav a {
+.header nav {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header nav a {
     display: inline-block;
-    margin-right: 16px;
+    margin: 0 3%;
 }

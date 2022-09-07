@@ -1,8 +1,10 @@
 {
+    "about": "Sobre",
     "about_text": "Sou programador",
     "contact": "Contato",
+    "email": "Email",
+    "github": "Github",
     "greeting": "Olá!",
-    "portfolio": "Portfólio",
     "home": "Início",
-    "about": "Sobre"
+    "portfolio": "Portfólio" 
 }
