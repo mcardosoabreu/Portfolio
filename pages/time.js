@@ -1,3 +1,4 @@
+import Layout from "../components/layout"
 import Link from "next/link"
 
 function Time(props) {
@@ -5,14 +6,14 @@ function Time(props) {
     const dynamicDateString = dynamicDate.toGMTString()
 
     return (
-        <div>
+        <Layout>
             <div>{dynamicDateString} (dynamic)</div>
             <div>{props.staticDateString} (static)</div>
             <br/>
             <Link href="/">
                 <a>Home</a>
             </Link>
-        </div>
+        </Layout>
     )
 }
 

@@ -6,7 +6,7 @@ function About() {
 
     return (
         <Layout>
-            <h1>{t("common:about")}</h1>
+            <h1>{t("common:about_text")}</h1>
         </Layout>
     )
 }

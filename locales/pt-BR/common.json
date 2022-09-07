@@ -1,6 +1,8 @@
 {
-    "about": "Sou programador",
+    "about_text": "Sou programador",
     "contact": "Contato",
     "greeting": "Olá!",
-    "portfolio": "Portfólio"
+    "portfolio": "Portfólio",
+    "home": "Início",
+    "about": "Sobre"
 }
