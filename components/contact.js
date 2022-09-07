@@ -8,13 +8,11 @@ export default function Contact({ label, value }) {
     return (
         <div className={classes.section}>
             <ul>
-                <li>
-                    <span className={classes.details}>
-                        {t(translate)}: &nbsp;
-                    </span>
-                    <strong className={classes.data}>
-                        {value}
-                    </strong>
+                <li className={classes.details}>
+                    {t(translate)}: &nbsp;
+                </li>
+                <li className={classes.data}>
+                    {value}
                 </li> 
             </ul>
         </div>

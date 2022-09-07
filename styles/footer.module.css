@@ -3,7 +3,7 @@
 }
 
 .footer ul {
-  display: table;      /* Required for table-cell to work on li's */
+  display: inline-block;      /* Required for table-cell to work on li's */
   padding: 0;          /* Override defaults for lists */
   margin: 0 auto;      /* Override defaults for lists */
   width: 100%;         /* Get the row full width */
@@ -11,9 +11,9 @@
 }
 
 .footer ul li {
-  display: table-cell;   /* Get all images to show in a row */
+  display: inline-block;   /* Get all images to show in a row */
   text-align: center;    /* Centre align the images */
-  width: 50%;
+  width: 100%;
   max-width: 500px;
   margin: 0 auto;
 }

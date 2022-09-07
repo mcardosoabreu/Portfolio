@@ -1,9 +1,9 @@
 .section ul {
     display: table;      /* Required for table-cell to work on li's */
     padding: 0;          /* Override defaults for lists */
-    margin: 0;          /* Override defaults for lists */
-    width: 100%;         /* Get the row full width */
+    width: 90%;         /* Get the row full width */
     text-align: center;  /* Centre align grid items */
+    margin: 0 auto;
 }
 
 .section ul li {
@@ -14,14 +14,17 @@
 .details, .data {
     font-family: "Roboto Serif", serif;
     color: #2C2D2A;
-    font-size: 16px;
-    text-align: left;
+    font-size: 100%;
+    word-break: break-all;
 }
 
 .details {
     text-align: right;
+    width: 30%;         /* Get the row full width */
 }
 
 .data {
+    text-align: left;
+    width: 70%;         /* Get the row full width */
     color: rgba(0, 0, 0, 0.6);
 }

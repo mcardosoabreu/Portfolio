@@ -13,7 +13,7 @@ function Home() {
             <section className={classes.section}>
                 <h2>{t("common:contact")}</h2>
                 <Contact label="email" value="mcardosoabreu@gmail.com"></Contact>
-                <Contact label="github" value="https://github.com/mcardosoabreu?tab=repositories"></Contact>
+                <Contact label="github" value="https://github.com/mcardosoabreu"></Contact>
             </section>
             <br/>
             <Counter />
