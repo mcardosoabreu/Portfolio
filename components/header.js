@@ -16,7 +16,7 @@ export default function Header() {
                     <a>{t("common:about")}</a>
                 </Link>
                 </nav>
-                <h1><span>Miguel</span> Cardoso Abreu</h1>
+                <h1>Miguel Cardoso Abreu</h1>
                 <p>{t("common:portfolio")}</p>
             </header>
         </div>

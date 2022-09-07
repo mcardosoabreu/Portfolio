@@ -14,7 +14,7 @@
   display: inline-block;   /* Get all images to show in a row */
   text-align: center;    /* Centre align the images */
   width: 100%;
-  max-width: 500px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
