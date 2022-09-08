@@ -27,3 +27,24 @@
     width: 70%;         /* Get the row full width */
     color: rgba(0, 0, 0, 0.6);
 }
+
+@media (max-width: 280px) {
+    .section ul {
+        display: block;
+    }
+
+    .section ul li {
+        display: block;
+    }
+
+    .details {
+        text-align: center;
+        width: 100%;         /* Get the row full width */
+    }
+
+    .data {
+        text-align: center;
+        width: 100%;         /* Get the row full width */
+        color: rgba(0, 0, 0, 0.6);
+    }
+  }
