@@ -13,7 +13,7 @@ export default function Layout({ children }) {
                 <meta charset="UTF-8"></meta>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <meta name="description" content="Miguel Cardoso Abreu Portfolio"></meta>
-                <meta name="google-site-verification" content="google4aa1e65d98c87fc8"></meta>
+                <meta name="google-site-verification" content="Q2OtTMg4AdlAcoAVTArqyrp-DnkeeXLV9h6JZ6utMs4" />
                 <meta name="robots" content="noindex,nofollow"></meta>
                 <title>Miguel Cardoso Abreu</title>
             </Head>
