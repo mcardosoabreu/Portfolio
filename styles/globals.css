@@ -13,3 +13,9 @@ body {
   text-align: center;
   font-size: 100%;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+}
