@@ -14,7 +14,7 @@ function Home() {
                 <h2>{t("common:contact")}</h2>
                 <Contact label="email" value="mcardosoabreu@gmail.com"></Contact>
                 <Contact label="phone" value="+55 41 991985305"></Contact>
-                <Contact label="github" value="https://github.com/mcardosoabreu"></Contact>
+                <Contact label="github" value="github.com/mcardosoabreu"></Contact>
             </section>
             <br/>
             <Counter />
