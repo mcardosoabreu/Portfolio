@@ -1,7 +1,6 @@
 import Layout from "../components/layout"
 import Contact from "../components/contact"
 import { useState } from "react"
-import Link from "next/link"
 import useTranslation from 'next-translate/useTranslation'
 import classes from "../styles/index.module.css"
 
@@ -18,10 +17,6 @@ function Home() {
             </section>
             <br/>
             <Counter />
-            <br/>
-            <Link href="/time">
-                <a>Time</a>
-            </Link>
             <br/>
         </Layout>
     )

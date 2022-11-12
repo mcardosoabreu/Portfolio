@@ -1,5 +1,4 @@
 import Layout from "../components/layout"
-import Link from "next/link"
 
 function Time(props) {
     const dynamicDate = new Date()
@@ -9,10 +8,6 @@ function Time(props) {
         <Layout>
             <div>{dynamicDateString} (dynamic)</div>
             <div>{props.staticDateString} (static)</div>
-            <br/>
-            <Link href="/">
-                <a>Home</a>
-            </Link>
         </Layout>
     )
 }
